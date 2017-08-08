@@ -1,0 +1,1 @@
+Dataset,Algorithm,CPUoptdigits,MN-SVM,787.85optdigits,NN-ISDA,528.04optdigits,NL-SGD,340.7reuters,MN-SVM,1657.04reuters,NN-ISDA,1368.018reuters,NL-SGD,758.05usps,MN-SVM,7777.82usps,NN-ISDA,5245.55usps,NL-SGD,4193.36

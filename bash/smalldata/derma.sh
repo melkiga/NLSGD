@@ -1,0 +1,6 @@
+gsvm -u pairwise -P 2.0 -K 0.5 -i 5 -o 5 "../../../data/smalldata/dermatology" > "../../../Output/smalldata/dermatology2P05K.txt"
+gsvm -u pairwise -P 5.0 -K 0.5 -i 5 -o 5 "../../../data/smalldata/dermatology" > "../../../Output/smalldata/dermatology5P05K.txt"
+gsvm -u pairwise -P 2.0 -K 0.75 -i 5 -o 5 "../../../data/smalldata/dermatology" > "../../../Output/smalldata/dermatology2P075K.txt"
+gsvm -u pairwise -P 5.0 -K 0.75 -i 5 -o 5 "../../../data/smalldata/dermatology" > "../../../Output/smalldata/dermatology5P075K.txt"
+gsvm -u pairwise -P 2.0 -K 1.0 -i 5 -o 5 "../../../data/smalldata/dermatology" > "../../../Output/smalldata/dermatology2P1K.txt"
+gsvm -u pairwise -P 5.0 -K 1.0 -i 5 -o 5 "../../../data/smalldata/dermatology" > "../../../Output/smalldata/dermatology5P1K.txt"

@@ -1,0 +1,6 @@
+gsvm -u pairwise -P 2.0 -K 0.5 -i 5 -o 5 "../../../data/smalldata/iris" > "../../../Output/smalldata/iris2P05K.txt"
+gsvm -u pairwise -P 5.0 -K 0.5 -i 5 -o 5 "../../../data/smalldata/iris" > "../../../Output/smalldata/iris5P05K.txt"
+gsvm -u pairwise -P 2.0 -K 0.75 -i 5 -o 5 "../../../data/smalldata/iris" > "../../../Output/smalldata/iris2P075K.txt"
+gsvm -u pairwise -P 5.0 -K 0.75 -i 5 -o 5 "../../../data/smalldata/iris" > "../../../Output/smalldata/iris5P075K.txt"
+gsvm -u pairwise -P 2.0 -K 1.0 -i 5 -o 5 "../../../data/smalldata/iris" > "../../../Output/smalldata/iris2P1K.txt"
+gsvm -u pairwise -P 5.0 -K 1.0 -i 5 -o 5 "../../../data/smalldata/iris" > "../../../Output/smalldata/iris5P1K.txt"

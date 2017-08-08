@@ -1,0 +1,6 @@
+gsvm -u pairwise -P 2.0 -K 0.5 -i 5 -o 5 "../../../data/MedLrgData/usps" > "../../../Output/medlrgdata/usps2P05K.txt"
+gsvm -u pairwise -P 1.0 -K 0.5 -i 5 -o 5 "../../../data/MedLrgData/usps" > "../../../Output/medlrgdata/usps1P05K.txt"
+gsvm -u pairwise -P 2.0 -K 0.75 -i 5 -o 5 "../../../data/MedLrgData/usps" > "../../../Output/medlrgdata/usps2P075K.txt"
+gsvm -u pairwise -P 1.0 -K 0.75 -i 5 -o 5 "../../../data/MedLrgData/usps" > "../../../Output/medlrgdata/usps1P075K.txt"
+gsvm -u pairwise -P 2.0 -K 1.0 -i 5 -o 5 "../../../data/MedLrgData/usps" > "../../../Output/medlrgdata/usps2P1K.txt"
+gsvm -u pairwise -P 1.0 -K 1.0 -i 5 -o 5 "../../../data/MedLrgData/usps" > "../../../Output/medlrgdata/usps1P1K.txt"

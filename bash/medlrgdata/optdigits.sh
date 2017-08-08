@@ -1,0 +1,6 @@
+gsvm -u pairwise -P 2.0 -K 0.5 -i 5 -o 5 "../../../data/MedLrgData/optdigits" > "../../../Output/medlrgdata/optdigits2P05K.txt"
+gsvm -u pairwise -P 1.0 -K 0.5 -i 5 -o 5 "../../../data/MedLrgData/optdigits" > "../../../Output/medlrgdata/optdigits1P05K.txt"
+gsvm -u pairwise -P 2.0 -K 0.75 -i 5 -o 5 "../../../data/MedLrgData/optdigits" > "../../../Output/medlrgdata/optdigits2P075K.txt"
+gsvm -u pairwise -P 1.0 -K 0.75 -i 5 -o 5 "../../../data/MedLrgData/optdigits" > "../../../Output/medlrgdata/optdigits1P075K.txt"
+gsvm -u pairwise -P 2.0 -K 1.0 -i 5 -o 5 "../../../data/MedLrgData/optdigits" > "../../../Output/medlrgdata/optdigits2P1K.txt"
+gsvm -u pairwise -P 1.0 -K 1.0 -i 5 -o 5 "../../../data/MedLrgData/optdigits" > "../../../Output/medlrgdata/optdigits1P1K.txt"

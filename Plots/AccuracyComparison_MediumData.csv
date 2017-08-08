@@ -1,0 +1,1 @@
+Dataset,Algorithm,ACCoptdigits,MN-SVM,99.31optdigits,NN-ISDA,99.29optdigits,NL-SGD,98.88reuters,MN-SVM,97.99reuters,NN-ISDA,98.08reuters,NL-SGD,97.28usps,MN-SVM,98.21usps,NN-ISDA,98.05usps,NL-SGD,96.95
